@@ -14,3 +14,24 @@ html {
     font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
 }
+
+img {
+    border: none;
+}
+
+.sticky {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #00B8D0 !important;
+}
+
+@keyframes opacity {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
